@@ -1,0 +1,26 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing:inherit;
+}
+html{
+    font-size:62.5%;
+    box-sizing:border-box;
+}
+:root{
+    --bg-color:#1F8084;
+    --bg-color2:#243665;
+    --bg-color3:#D2D4D5;
+}
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background-color:var(--bg-color3);
+}
+
+.title{
+    font-size:3rem;
+}
